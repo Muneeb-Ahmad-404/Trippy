@@ -1,0 +1,40 @@
+.outline{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #190933;
+}
+
+.fields{
+    margin: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+    height: 350px;
+    flex-direction: column;
+    padding-top: 4rem;
+    background-color: #A4243B;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+.fields input{
+    height: 2rem;
+    width: 80%;
+    margin-bottom: 2rem;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.fields button{
+    font-size: 1rem;
+    padding: 0rem 1rem;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.fields button:hover{
+    background-color: #243E36;
+    color: white;
+}
